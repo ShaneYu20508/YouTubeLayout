@@ -1,0 +1,129 @@
+#header {
+	width: 100%;
+	height: 60px;
+	background: lightblue;
+	font-size: 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	/* display: flex; */
+}
+
+#header div {
+	display: inline-block;
+	position: relative;
+}
+
+#header input {
+	position: absolute;
+}
+
+#guide {
+	width: 40px;
+	height: 40px;
+	margin-left: 20px;
+	border-radius: 50%;
+	background: gray;
+	margin-bottom: 10px;
+}
+
+#logo {
+	width: 100px;
+	height: 60px;
+	/* background: red; */
+}
+
+#yt-logo {
+	width: 100px;
+	height: 22px;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+#search {
+	width: 550px;
+	height: 60px;
+	margin-left: 400px;
+	/* background: yellow; */
+}
+
+#search input {
+	width: 550px;
+	height: 40px;
+	border-radius: 50px 0 0 50px;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+#button {
+	width: 80px;
+	height: 60px;
+	/* background: purple; */
+}
+
+#button input {
+	width: 80px;
+	height: 40px;
+	border-radius: 0 50px 50px 0;
+	top: 50%;
+	transform: translate(-2px, -50%);
+}
+
+#voice {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+	background: pink;
+}
+
+#setting {
+	width: 60px;
+	height: 60px;
+	margin-left: 410px;
+	background: greenyellow;
+}
+
+#login-top {
+	width: 100px;
+	height: 60px;
+	background: chocolate;
+}
+
+/* #menu div {
+    display: inline-block;
+}
+
+#guide {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+#logo {
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+#logo img {
+    width: 120px;
+    height: 35px;
+}
+
+#search {
+    left: 50%;
+    margin-left: 100px;
+
+}
+
+#text {
+    width: 500px;
+    height: 40px;
+    border-radius: 50px 0 0 50px;
+} */
