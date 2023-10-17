@@ -13,7 +13,6 @@
             margin: 0;
         }
 
-
         #content {
             width: calc(100% - 15%);
             margin-top: 60px;
@@ -25,14 +24,22 @@
 
 <body>
     <div id="header">
-        <div id="guide"></div>
-        <div id="logo"><img src="./image/youtube-logo-9.png" id="yt-logo"></div>
-        <div id="search"><input type="search" value="搜尋"></div>
-        <div id="button"><input type="submit" value="放大鏡"></div>
-        <div id="voice"></div>
-        <div id="setting"></div>
-        <div id="login-top"></div>
+        <div id="top-left">
+            <div id="guide"><a href=""><i class="fa-solid fa-bars fa-lg" style="color: #000000;"></a></i></div>
+            <div id="logo"><img src="./image/youtube-logo-9.png"></div>
+        </div>
+        <div id="top-mid">
+            <input type="search" value="搜尋" class="search">
+            <button class="top-btn"><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000000;"></i></button>
+            <div id="voice"><a href=""><i class="fa-solid fa-microphone fa-lg" style="color: #000000;"></a></i></div>
+        </div>
+
+        <div id="top-right">
+            <div id="set"><i class="fa-solid fa-ellipsis-vertical fa-lg" style="color: #000000;"></i></div>
+            <div id="top-login"><a href=""><i class="fa-regular fa-circle-user"></i>登入</a></div>
+        </div>
     </div>
+
     <div id="sidebar">
         <ul class="menu">
             <li><a href=""><i class="fa-solid fa-house"></i>首頁</a></li>
@@ -79,7 +86,7 @@
             <hr>
         </ul>
     </div>
-    <div id="content">
+    <!-- <div id="content">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sequi doloremque suscipit nesciunt,
         doloribus quis unde consequatur, aspernatur, possimus vero ipsum? Aliquid commodi doloremque minus optio maxime
         voluptatum accusantium suscipit, fugiat sint dolor voluptatem inventore perspiciatis maiores deleniti eum modi!
@@ -289,7 +296,7 @@
         nam officiis modi saepe porro vero dolor delectus voluptates nihil, itaque magni rerum voluptatum reprehenderit
         quisquam sequi enim quidem similique architecto placeat non illo aperiam reiciendis? Aliquid blanditiis
         consequuntur autem repellendus accusamus aut natus quidem libero.
-    </div>
+    </div> -->
 </body>
 
 </html>
