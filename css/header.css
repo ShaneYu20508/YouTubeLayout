@@ -1,7 +1,7 @@
 #header {
 	width: 100%;
 	height: 60px;
-	background: lightblue;
+	/* background: lightblue; */
 	font-size: 0;
 	position: fixed;
 	left: 0;
@@ -26,34 +26,40 @@
 }
 
 #guide {
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
 	border: 1px solid black;
+	/* background: lightcoral; */
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	text-align: center;
+	float: left;
+	line-height: 40px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	/* display: flex; */
+	/* justify-content: center;
+	align-items: center; */
 }
 
-#guide a {
-	color: black;
+#top-left a {
 	text-decoration: none;
 	display: block;
-	padding: 0.5rem 1.5rem;
-	transition: 0.5s;
+	/* background: red; */
+	font-size: 1rem;
 }
 
-#guide a:hover {
-	border-radius: 50%;
+#top-left #guide:hover {
 	background: rgba(153, 151, 151, 0.5);
+	transition: 0.25s;
 }
 
 #logo img {
 	width: 95px;
 	height: 21px;
-	margin-left: 10px;
+	margin-left: 60px;
 }
 
 #top-mid {
@@ -74,6 +80,10 @@
 	border-radius: 50px 0 0 50px;
 	margin-left: 60px;
 	font-size: 1rem;
+}
+
+#top-mid input:focus {
+	outline: none;
 }
 
 #top-mid .top-btn {
@@ -130,7 +140,6 @@
 }
 
 #top-login a {
-	list-style: none;
 	text-decoration: none;
 	color: rgb(65, 65, 238);
 	display: block;
