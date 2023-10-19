@@ -2,7 +2,7 @@
 	/* view port height */
 	height: calc(100vh - 60px);
 	width: 15%;
-	background: lightgoldenrodyellow;
+	/* background: lightgoldenrodyellow; */
 	position: fixed;
 	left: 0;
 	top: 60px;
