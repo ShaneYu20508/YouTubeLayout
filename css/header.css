@@ -165,7 +165,7 @@
 
 #top-login a {
 	text-decoration: none;
-	color: rgb(65, 65, 238);
+	color: rgb(67, 125, 233);
 	display: block;
 	padding: 5px;
 	transition: 0.15s;
@@ -174,5 +174,5 @@
 #top-login a:hover {
 	height: 25px;
 	border-radius: 20px;
-	background: rgb(199, 226, 244);
+	background: rgb(209, 233, 251);
 }

@@ -1,7 +1,7 @@
 #sidebar {
 	/* view port height */
 	height: calc(100vh - 60px);
-	width: 15%;
+	width: 240px;
 	/* background: lightgoldenrodyellow; */
 	position: fixed;
 	left: 0;
@@ -10,58 +10,67 @@
 	font-family: '微軟正黑體';
 }
 
-#sidebar .menu {
-	display: inline-block;
-	width: 85%;
-	padding: 1rem;
-}
-
-#sidebar .menu h2 {
-	padding: 1rem;
-}
-
-#sidebar .menu li {
-	list-style: none;
+#menu {
+	width: 240px;
 	display: block;
-	padding: 5px;
-	font-size: 1rem;
 }
 
-#sidebar .menu li a {
-	color: black;
-	text-decoration: none;
-	display: block;
-	padding: 0.5rem 1.5rem;
-	transition: 0.5s;
+#menu .area {
+	width: 216px;
+	padding: 12px;
 }
 
-#sidebar .menu li a:hover {
-	border-radius: 10px;
-	background: grey;
+#log-area {
+	width: 176px;
+	height: 88px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 32px;
+	padding-right: 32px;
+	font-size: 0.9rem;
 }
 
-#login {
-	width: 35%;
-	list-style: none;
-	margin: 1rem;
-	display: block;
-	box-sizing: border-box;
-	font-size: 1rem;
-	border: 1px solid rgb(153, 151, 151);
+#sidelog-btn {
+	width: 84px;
+	height: 36px;
+	margin-top: 12px;
+	display: flex;
+	font-size: 0.9rem;
+	border: 1px solid rgba(161, 161, 161, 0.4);
 	border-radius: 20px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	color: rgb(67, 125, 233);
 }
 
-#login a {
-	list-style: none;
-	text-decoration: none;
-	color: rgb(65, 65, 238);
-	display: block;
-	padding: 5px;
-	font-size: 1rem;
-	transition: 0.25s;
+#sidelog-btn:hover {
+	cursor: pointer;
+	background: rgb(209, 233, 251);
+
 }
 
-#login a:hover {
-	border-radius: 20px;
-	background: rgb(199, 226, 244);
+#log-icon {
+	margin-right: 6px;
+}
+
+#menu .li {
+	width: 180px;
+	height: 40px;
+	border-radius: 10px 10px 10px 10px;
+	display: flex;
+	padding-left: 12px;
+	padding-right: 12px;
+	font-size: 0.9rem;
+	line-height: 40px;
+
+}
+
+#menu .li:hover {
+	cursor: pointer;
+	background: rgba(161, 161, 161, 0.2);
+}
+
+#menu .icon {
+	margin-right: 24px;
 }
