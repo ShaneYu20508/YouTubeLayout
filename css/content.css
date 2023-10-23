@@ -28,23 +28,28 @@
 	width: calc(100% - 250px);
 	margin-left: 250px;
 	padding-top: 24px;
-	background: lawngreen;
-}
-
-#area1 {
-	width: calc(100%- 250px);
-	height: 330px;
-	background: lightseagreen;
+	/* background: lawngreen; */
 	display: flex;
 }
 
-#video {
+/* ---------------------------------------------- */
+.cont-area {
+	width: calc(100%- 250px);
+	/* height: 330px; */
+	/* background: lightseagreen; */
+}
+
+.video {
 	width: 330px;
 	height: 290px;
 	border: 1px solid black;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 40px;
+	display: inline-block;
 }
 
-#pic {
+.pic {
 	width: 330px;
 	height: 185px;
 	border: 1px solid black;
@@ -53,13 +58,13 @@
 	position: relative;
 }
 
-#pic img {
+.pic img {
 	width: 330px;
 	height: 185px;
 	position: absolute;
 }
 
-#time {
+.time {
 	position: absolute;
 	bottom: 3px;
 	right: 3px;
@@ -71,10 +76,41 @@
 	font-family: 'soft';
 }
 
-#channel {
+.channel {
 	width: 36px;
 	height: 36px;
 	border: 1px solid black;
 	margin-top: 12px;
 	margin-right: 12px;
+	position: absolute;
+}
+
+.title {
+	padding-right: 24px;
+	width: 258px;
+	height: 42px;
+	margin-left: 48px;
+	margin-top: 12px;
+	margin-bottom: 4px;
+	font-size: 0.9rem;
+	overflow: hidden;
+}
+
+.title p {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.channel-name {
+	font-size: 0.85rem;
+	color: #888;
+	margin-left: 48px;
+	margin-bottom: -2px;
+}
+
+.view-when {
+	font-size: 0.85rem;
+	color: #888;
+	margin-left: 48px;
 }
