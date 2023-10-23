@@ -1,0 +1,80 @@
+#content-top {
+	width: calc(100%-250px);
+	height: 56px;
+	margin-top: 60px;
+	margin-left: 250px;
+}
+
+#my-tab li {
+	height: 32px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin: 12px;
+	margin-left: 0;
+	background: rgba(161, 161, 161, 0.2);
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 10px 10px 10px 10px;
+	line-height: 32px;
+}
+
+#my-tab li:nth-child(1) {
+	background: black;
+	color: white;
+}
+
+#content {
+	width: calc(100% - 250px);
+	margin-left: 250px;
+	padding-top: 24px;
+	background: lawngreen;
+}
+
+#area1 {
+	width: calc(100%- 250px);
+	height: 330px;
+	background: lightseagreen;
+	display: flex;
+}
+
+#video {
+	width: 330px;
+	height: 290px;
+	border: 1px solid black;
+}
+
+#pic {
+	width: 330px;
+	height: 185px;
+	border: 1px solid black;
+	border-radius: 10px 10px 10px 10px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#pic img {
+	width: 330px;
+	height: 185px;
+	position: absolute;
+}
+
+#time {
+	position: absolute;
+	bottom: 3px;
+	right: 3px;
+	font-size: 0.8rem;
+	background: black;
+	color: white;
+	border-radius: 5px 5px 5px 5px;
+	padding: 0;
+	font-family: 'soft';
+}
+
+#channel {
+	width: 36px;
+	height: 36px;
+	border: 1px solid black;
+	margin-top: 12px;
+	margin-right: 12px;
+}
