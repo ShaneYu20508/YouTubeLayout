@@ -19,6 +19,11 @@
 	line-height: 32px;
 }
 
+#my-tab li:hover {
+	background: rgba(161, 161, 161, 0.4);
+	transition: 0.2s;
+}
+
 #my-tab li:nth-child(1) {
 	background: black;
 	color: white;
@@ -29,11 +34,11 @@
 	margin-left: 250px;
 	padding-top: 24px;
 	/* background: lawngreen; */
-	display: flex;
+	/* display: flex; */
 }
 
 /* ---------------------------------------------- */
-.cont-area {
+.vid-area {
 	width: calc(100%- 250px);
 	/* height: 330px; */
 	/* background: lightseagreen; */
@@ -41,27 +46,34 @@
 
 .video {
 	width: 330px;
-	height: 290px;
-	border: 1px solid black;
+	height: 280px;
+	/* border: 1px solid black; */
 	margin-left: 8px;
 	margin-right: 8px;
 	margin-bottom: 40px;
 	display: inline-block;
+	position: relative;
+	cursor: pointer;
 }
 
 .pic {
 	width: 330px;
 	height: 185px;
-	border: 1px solid black;
-	border-radius: 10px 10px 10px 10px;
 	box-sizing: border-box;
 	position: relative;
+	/* border: 1px solid black; */
 }
 
 .pic img {
 	width: 330px;
 	height: 185px;
 	position: absolute;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.pic img:hover {
+	border-radius: 0 0 0 0;
+	transition: 0.5s;
 }
 
 .time {
@@ -73,15 +85,21 @@
 	color: white;
 	border-radius: 5px 5px 5px 5px;
 	padding: 0;
-	font-family: 'soft';
 }
 
 .channel {
 	width: 36px;
 	height: 36px;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	margin-top: 12px;
 	margin-right: 12px;
+	position: absolute;
+}
+
+.channel img {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
 	position: absolute;
 }
 
@@ -91,15 +109,37 @@
 	height: 42px;
 	margin-left: 48px;
 	margin-top: 12px;
-	margin-bottom: 4px;
 	font-size: 0.9rem;
 	overflow: hidden;
+	float: left;
+	/* background-color: #fff; */
 }
 
 .title p {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+}
+
+.vid-btn {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	right: 0px;
+	/* border: 1px solid black; */
+	/* background-color: lightgreen; */
+}
+
+#vid-btn {
+	display: none;
+}
+
+.vid-btn:hover #vid-btn {
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	transition: 0.2s;
 }
 
 .channel-name {
@@ -113,4 +153,11 @@
 	font-size: 0.85rem;
 	color: #888;
 	margin-left: 48px;
+}
+/* ------------------------------ */
+#short-area {
+	width: calc(100%- 250px);
+	padding-bottom: 17px;
+	margin-bottom: 48px;
+	background-color: lightpink;
 }
