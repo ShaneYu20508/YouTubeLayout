@@ -1,8 +1,13 @@
 #content-top {
-	width: calc(100%-250px);
+	width: 100%;
 	height: 56px;
 	margin-top: 60px;
 	margin-left: 250px;
+	position: fixed;
+	z-index: 1;
+	background: white;
+	left: 0;
+	top: 0;
 }
 
 #my-tab li {
@@ -31,6 +36,7 @@
 
 #content {
 	width: calc(100% - 250px);
+	margin-top: 116px;
 	margin-left: 250px;
 	padding-top: 24px;
 	/* background: lawngreen; */
@@ -127,7 +133,6 @@
 	position: absolute;
 	right: 0px;
 	/* border: 1px solid black; */
-	/* background-color: lightgreen; */
 }
 
 #vid-btn {
@@ -154,10 +159,125 @@
 	color: #888;
 	margin-left: 48px;
 }
+
 /* ------------------------------ */
-#short-area {
+.short-area {
 	width: calc(100%- 250px);
+	height: 484px;
 	padding-bottom: 17px;
 	margin-bottom: 48px;
-	background-color: lightpink;
+	/* background-color: lightpink; */
+	display: flex;
+}
+
+
+h2 {
+	font-family: '微軟正黑體';
+	height: 40px;
+	font-size: 18px;
+	font-weight: bolder;
+	background-color: #fff;
+	margin-left: 20px;
+	margin-bottom: 24px;
+}
+
+h2 img {
+	width: 20px;
+	height: 24px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.shorts {
+	width: 217px;
+	height: 464px;
+	margin-right: 8px;
+	margin-left: 8px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.short-pic {
+	width: 217px;
+	height: 385px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.short-pic img {
+	width: 217px;
+	height: 385px;
+	border-radius: 20px;
+}
+
+.short-title {
+	width: 193px;
+	height: 32px;
+	line-height: 16px;
+	padding-top: 12px;
+	padding-right: 24px;
+	font-size: 0.85rem;
+	color: black;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.short-view {
+	font-size: 0.85rem;
+	color: #888;
+	width: 100%;
+	height: 20px;
+	cursor: pointer;
+}
+
+.short-btn {
+	width: 40px;
+	height: 40px;
+	right: 00px;
+	position: absolute;
+	text-align: center;
+	line-height: 40px;
+}
+
+#short-btn {
+	display: none;
+}
+
+.short-btn:hover #short-btn {
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	transition: 0.2s;
+}
+
+#line {
+	margin-bottom: 50px;
+	position: relative;
+}
+
+#line hr {
+	color: #888;
+	border: 1px solid rgba(236, 231, 231, 1);
+}
+
+#more {
+	width: 358px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	height: 34px;
+	border: 1px solid #888;
+	border-radius: 30px;
+	position: absolute;
+	text-align: center;
+	line-height: 34px;
+	color: #888;
+}
+
+#more:hover {
+	cursor: pointer;
 }

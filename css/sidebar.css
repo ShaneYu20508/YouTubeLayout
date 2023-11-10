@@ -117,3 +117,22 @@
 	height: 20px;
 	vertical-align: middle;
 }
+
+#footer {
+	width: 240px;
+	height: 151px;
+	font-size: 0.9rem;
+	color: #999;
+}
+
+#footer div {
+	padding: 24px;
+	padding-top: 16px;
+	padding-bottom: 0px;
+}
+
+#footer .other {
+	padding: 16px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
